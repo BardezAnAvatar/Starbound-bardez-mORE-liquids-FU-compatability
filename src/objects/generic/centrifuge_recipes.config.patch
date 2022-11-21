@@ -59,5 +59,16 @@
         "money": ["normal", 20],
       }
     }
+  },
+  {
+    "op" : "add",
+    "path" : "/itemMapLiquids/-",
+    "value" : {
+      "moltensilver": {
+        "ff_silicon": ["rare", 1],
+        "silverore": ["common", 1],
+        "fu_carbondioxide": ["normal", 1]
+      }
+    }
   }
 ]
