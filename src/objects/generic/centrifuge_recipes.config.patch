@@ -26,5 +26,16 @@
         "fu_carbondioxide": ["normal", 2],
       }
     }
+  },
+  {
+    "op" : "add",
+    "path" : "/itemMapLiquids/-",
+    "value" : {
+      "moltencopper": {
+        "ff_silicon": ["rare", 1],
+        "copperore": ["common", 1],
+        "fu_carbondioxide": ["normal", 1]
+      }
+    }
   }
 ]
