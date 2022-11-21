@@ -1,4 +1,4 @@
-# Starbound-bardez-liquid-pump
+# Starbound-bardez-mORE-liquids-FU-plus
 
 This repo is a mod for [Starbound](https://playstarbound.com/), based on top of the following mods:
 - [Frackin' Universe](https://steamcommunity.com/sharedfiles/filedetails/?id=729480149) 
@@ -7,41 +7,8 @@ This repo is a mod for [Starbound](https://playstarbound.com/), based on top of 
 
 This mod does the following:
 
-- Fixes the still-remaining conflict between molten coal and refined mech fuel
+- Fixes the still-remaining conflict between `Molten Coal` in mORE Liquids and `Refined Mech Fuel` when coal placed in the world
 - Converts `Molten Iron` from mORE Liquids into `Liquid Iron` from Frackin' Universe (because it has all of the interactions in FU)
-- Adds in even more liquids:
-   - From Vanilla:
-     - Liquid Diamond
-     - Liquid Durasteel
-     - Liquid Aegisalt
-     - Liquid Ferozium
-     - Liquid Violoum
-     - Liquid Solarium
-   - From Frackin' Universe:
-     - Liquid Carbon
-     - Liquid Lead
-     - Liquid Sulphur
-     - Liquid Magnesite
-     - Liquid Cinnabar
-     - Liquid Mascagnite
-     - Liquid Laspmbrium
-     - Liquid Plutonium
-     - Liquid Neptunium
-     - Liquid Uranium
-     - Liquid Thorium
-     - Liquid Lunari
-     - Liquid Telebrium
-     - Liquid Penumbrite
-     - Liquid Zerchesium
-     - Liquid Trianglium
-     - Liquid Prism
-     - Liquid Quietus
-     - Liquid Effigium
-     - Liquid Pyreite
-     - Liquid Isogen
-     - Liquid Densinium
-     - Liquid Xithricite
-     - Liquid Nocxium
 - Adds centrifugable recipes from mORE Liquids to FU advanced centrifuges
 - Adds all conversion recipes from liquids to solids from mORE Liquids to Atomic Furnace
-- Adds conversion recipes for newly introduced liquids into solids to Atomic Furnace
+- Adds in some somewhat more intelligent and variant language to the liquids, not just the "pulled this out too soon" text.
