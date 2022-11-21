@@ -37,5 +37,16 @@
         "fu_carbondioxide": ["normal", 1]
       }
     }
+  },
+  {
+    "op" : "add",
+    "path" : "/itemMapLiquids/-",
+    "value" : {
+      "moltengold": {
+        "ff_silicon": ["rare", 1],
+        "goldore": ["common", 1],
+        "fu_carbondioxide": ["normal", 1]
+      }
+    }
   }
 ]
