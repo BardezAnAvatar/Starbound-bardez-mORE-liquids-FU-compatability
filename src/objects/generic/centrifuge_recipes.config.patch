@@ -1,0 +1,30 @@
+[
+/*
+  {
+    "op" : "add",
+    "path" : "/itemMapLiquids/-",
+    "value" : {
+      "moltencoal": {
+        "graphene": ["rarest", 1],
+        "carbon": ["rare", 1],
+        "coal": ["uncommon", 1],
+        "c02": ["common", 1]
+        "fu_hydrogen": ["normal", 2],
+      }
+    }
+  }
+*/
+  {
+    "op" : "add",
+    "path" : "/itemMapLiquids/-",
+    "value" : {
+      "moltencoal": {
+        "diamond": ["rarest", 1],
+        "graphene": ["rare", 1],
+        "crystal": ["uncommon", 1],
+        "fu_carbon": ["common", 1]
+        "fu_carbondioxide": ["normal", 2],
+      }
+    }
+  }
+]
