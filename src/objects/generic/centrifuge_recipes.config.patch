@@ -48,5 +48,16 @@
         "fu_carbondioxide": ["normal", 1]
       }
     }
+  },
+  {
+    "op" : "add",
+    "path" : "/itemMapLiquids/-",
+    "value" : {
+      "moltenpixel": {
+        "diamondblockmaterial": ["rarest", 1],
+        "treasurehoard": ["rare", 1],
+        "money": ["normal", 20],
+      }
+    }
   }
 ]
