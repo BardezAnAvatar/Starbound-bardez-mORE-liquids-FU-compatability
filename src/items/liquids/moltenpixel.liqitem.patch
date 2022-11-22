@@ -2,6 +2,6 @@
   {
     "op": "replace",
     "path": "/description/-",
-    "value": "Molten pixels. I could use this to literally swim in money."
+    "value": "Molten pixels. I could use this to literally swim in money.\n^yellow;Centrifugable^reset;."
   }
 ]
