@@ -7,7 +7,7 @@
       "graphene": ["rare", 1],
       "crystal": ["uncommon", 1],
       "fu_carbon": ["common", 1]
-      "fu_carbondioxide": ["normal", 2],
+      "fu_carbondioxide": ["normal", 2]
     }
   },
   {
@@ -34,7 +34,7 @@
     "value" : {
       "diamondblockmaterial": ["rarest", 1],
       "treasurehoard": ["rare", 1],
-      "money": ["normal", 20],
+      "money": ["normal", 20]
     }
   },
   {
