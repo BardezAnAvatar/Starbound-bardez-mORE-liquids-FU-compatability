@@ -74,7 +74,7 @@
     "value" : {
       "icon" : "/items/liquids/moltentungsten.png",
       "children" : [ ],
-      "position" : [110, 100],
+      "position" : [95, 100],
       "price" : [["fuscienceresource", 1000],["tungstenbar", 3]],
       "unlocks" : [ "moltentungsten" ]
     }
@@ -86,7 +86,7 @@
     "value" : {
       "icon" : "/items/liquids/moltenpixel.png",
       "children" : [ ],
-      "position" : [130, 100],
+      "position" : [125, 100],
       "price" : [["fuscienceresource", 1000],["money", 20000]],
       "unlocks" : [ "moltenpixel" ]
     }
