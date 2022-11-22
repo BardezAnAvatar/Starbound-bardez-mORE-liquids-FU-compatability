@@ -1,12 +1,12 @@
 {
   "author" : "Bardez",
-  "description" : "Provides the following fixes for compatability between [url=https://steamcommunity.com/sharedfiles/filedetails/?id=729480149]Frackin' Universe[/url] (FU) and [url=https://steamcommunity.com/workshop/filedetails/?id=1318339314]mORE Liquids[/url] [list][*]Provides fix for liquid coal/mech fuel conflict with FU ([url=https://steamcommunity.com/sharedfiles/filedetails/?id=2128491231]mORE Liquids Fix Patch[/url] does not have Frackin' Universe as a dependency/include soft-prerequisite and thus does not load for me properly) -- uses liquid ID [b]74[/b] [*]Adds centrifugable recipes for the molten liquids[/list]",
+  "description" : "Provides the following fixes for compatability between [url=https://steamcommunity.com/sharedfiles/filedetails/?id=729480149]Frackin' Universe[/url] (FU) and [url=https://steamcommunity.com/workshop/filedetails/?id=1318339314]mORE Liquids[/url]\n\n[list]\n  [*]Provides fix for liquid coal/mech fuel conflict with FU ([url=https://steamcommunity.com/sharedfiles/filedetails/?id=2128491231]mORE Liquids Fix Patch[/url] does not have Frackin' Universe as a dependency/include soft-prerequisite and thus does not load for me properly) -- uses liquid ID [b]74[/b]\n  [*]Adds centrifugable recipes for the molten liquids\n[/list]",
   "friendlyName" : "mORE Liquids/Frackin' Universe Patch",
   "includes" : ["FrackinUniverse", "mORE Liquids", "mORE Liquids Fix Patch"],
-  "link" : "",
+  "link" : "steam://url/CommunityFilePage/2891773441",
   "name" : "mORE_liquids_frackin_patch",
   "priority" : 0,
-  "steamContentId" : "",
-  "tags" : "",
+  "steamContentId" : "2891773441",
+  "tags" : "Crafting and Building|Miscellaneous",
   "version" : "0.1.0"
 }
