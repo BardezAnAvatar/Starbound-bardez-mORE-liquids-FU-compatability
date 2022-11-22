@@ -40,6 +40,7 @@
     "value" : {
       "diamondblockmaterial": ["rarest", 5],
       "treasurehoard": ["rare", 1],
+      "easyvoxel20": ["uncommon", 1],
       "money": ["normal", 1]
     }
   },
