@@ -1,0 +1,216 @@
+[
+  //liquid copper
+  {
+    "op" : "add",
+    "path" : "/researchTree/fu_geology/liquid_copper",
+    "value" : {
+      "icon" : "/items/liquids/moltencopper.png",
+      "children" : [ ],
+      "position" : [20, 70],
+      "price" : [["fuscienceresource", 1000],["copperbar", 3]],
+      "unlocks" : [ "moltencopper" ]
+    }
+  },
+  {
+    "op" : "replace",
+    "path" : "/researchTree/fu_geology/metals_copper/children",
+    "value" : [ "liquid_copper" ]
+  },
+  //liquid iron
+  {
+    "op" : "add",
+    "path" : "/researchTree/fu_geology/liquid_iron",
+    "value" : {
+      "icon" : "/items/liquids/liquidironicon.png",
+      "children" : [ ],
+      "position" : [0, -80],
+      "price" : [["fuscienceresource", 1000],["ironbar", 3]],
+      "unlocks" : [ "liquidironfu" ]
+    }
+  },
+  {
+    "op" : "replace",
+    "path" : "/researchTree/fu_geology/metals_iron/children",
+    "value" : [ "liquid_iron" ]
+  },
+  //liquid gold
+  {
+    "op" : "add",
+    "path" : "/researchTree/fu_geology/liquid_gold",
+    "value" : {
+      "icon" : "/items/liquids/moltengold.png",
+      "children" : [ ],
+      "position" : [50, 70],
+      "price" : [["fuscienceresource", 1000],["goldbar", 3]],
+      "unlocks" : [ "moltengold" ]
+    }
+  },
+  {
+    "op" : "replace",
+    "path" : "/researchTree/fu_geology/metals_gold/children",
+    "value" : [ "liquid_gold" ]
+  },
+  //liquid silver
+  {
+    "op" : "add",
+    "path" : "/researchTree/fu_geology/liquid_silver",
+    "value" : {
+      "icon" : "/items/liquids/moltensilver.png",
+      "children" : [ ],
+      "position" : [40, -80],
+      "price" : [["fuscienceresource", 1000],["silverbar", 3]],
+      "unlocks" : [ "moltensilver" ]
+    }
+  },
+  {
+    "op" : "replace",
+    "path" : "/researchTree/fu_geology/metals_silver/children",
+    "value" : [ "liquid_silver" ]
+  },
+  //liquid tungsten
+  {
+    "op" : "add",
+    "path" : "/researchTree/fu_geology/liquid_tungsten",
+    "value" : {
+      "icon" : "/items/liquids/moltentungsten.png",
+      "children" : [ ],
+      "position" : [95, 110],
+      "price" : [["fuscienceresource", 1000],["tungstenbar", 3]],
+      "unlocks" : [ "moltentungsten" ]
+    }
+  },
+  //liquid pixel
+  {
+    "op" : "add",
+    "path" : "/researchTree/fu_geology/liquid_pixel",
+    "value" : {
+      "icon" : "/items/liquids/moltenpixel.png",
+      "children" : [ ],
+      "position" : [125, 110],
+      "price" : [["fuscienceresource", 1000],["money", 20000]],
+      "unlocks" : [ "moltenpixel" ]
+    }
+  },
+  //both liquid tungsten and pixel as children
+  {
+    "op" : "replace",
+    "path" : "/researchTree/fu_geology/metals_tungsten/children",
+    "value" : [ "liquid_tungsten", "liquid_pixel" ]
+  },
+  //liquid titanium
+  {
+    "op" : "add",
+    "path" : "/researchTree/fu_geology/liquid_titanium",
+    "value" : {
+      "icon" : "/items/liquids/moltentitanium.png",
+      "children" : [ ],
+      "position" : [140, 80],
+      "price" : [["fuscienceresource", 1000],["titaniumbar", 3]],
+      "unlocks" : [ "moltentitanium" ]
+    }
+  },
+  {
+    "op" : "replace",
+    "path" : "/researchTree/fu_geology/metals_titanium/children",
+    "value" : [ "liquid_titanium" ]
+  },
+  //liquid coal
+  {
+    "op" : "add",
+    "path" : "/researchTree/fu_geology/liquid_coal",
+    "value" : {
+      "icon" : "/items/liquids/moltencoal.png",
+      "children" : [ ],
+      "position" : [80, 80],
+      "price" : [["fuscienceresource", 1000],["coalore", 20], ["unstableparticles", 5]],
+      "unlocks" : [ "moltencoal" ]
+    }
+  },
+  {
+    "op" : "replace",
+    "path" : "/researchTree/fu_geology/metals_alloy1/children",
+    "value" : [ "liquid_coal" ]
+  },
+  //strings
+  {
+    "op" : "add",
+    "path" : "/strings/research/liquid_copper",
+    "value" : [ "Molten Copper", "^orange;Tier 1^reset;\n\n^cyan;Copper^reset;, heated to its melting point. Requires an atomic furnace." ]
+  },
+  {
+    "op" : "add",
+    "path" : "/strings/research/liquid_iron",
+    "value" : [ "Molten Iron", "^orange;Tier 1^reset;\n\n^cyan;Iron^reset;, heated to its melting point. Requires an atomic furnace." ]
+  },
+  {
+    "op" : "add",
+    "path" : "/strings/research/liquid_gold",
+    "value" : [ "Molten Gold", "^orange;Tier 2^reset;\n\n^cyan;Gold^reset;, heated to its melting point. Requires an atomic furnace." ]
+  },
+  {
+    "op" : "add",
+    "path" : "/strings/research/liquid_silver",
+    "value" : [ "Molten Silver", "^orange;Tier 2^reset;\n\n^cyan;Silver^reset;, heated to its melting point. Requires an atomic furnace." ]
+  },
+  {
+    "op" : "add",
+    "path" : "/strings/research/liquid_tungsten",
+    "value" : [ "Molten Tungsten", "^orange;Tier 2^reset;\n\n^cyan;Tungsten^reset; (a.k.a. Wolfram), heated to its melting point. Requires an atomic furnace." ]
+  },
+  {
+    "op" : "add",
+    "path" : "/strings/research/liquid_titanium",
+    "value" : [ "Molten Titanium", "^orange;Tier 3^reset;\n\n^cyan;Titanium^reset;, heated to its melting point. Requires an atomic furnace." ]
+  },
+  {
+    "op" : "add",
+    "path" : "/strings/research/liquid_coal",
+    "value" : [ "Molten Coal", "^orange;Tier 3^reset;\n\n^cyan;Coal^reset;, molten through processes undescribed. Requires an atomic furnace." ]
+  },
+  {
+    "op" : "add",
+    "path" : "/strings/research/liquid_pixel",
+    "value" : [ "Molten Pixel", "^orange;Tier 3^reset;\n\n^cyan;Pixel^reset;, heated to its melting point. Tempting to swim in. Requires an atomic furnace." ]
+  },
+  //acronyms
+  {
+    "op" : "add",
+    "path" : "/acronyms/fu_geology/MORELIQ1",
+    "value" : "liquid_coal"
+  },
+  {
+    "op" : "add",
+    "path" : "/acronyms/fu_geology/MORELIQ2",
+    "value" : "liquid_copper"
+  },
+  {
+    "op" : "add",
+    "path" : "/acronyms/fu_geology/MORELIQ3",
+    "value" : "liquid_gold"
+  },
+  {
+    "op" : "add",
+    "path" : "/acronyms/fu_geology/MORELIQ4",
+    "value" : "liquid_iron"
+  },
+  {
+    "op" : "add",
+    "path" : "/acronyms/fu_geology/MORELIQ5",
+    "value" : "liquid_pixel"
+  },
+  {
+    "op" : "add",
+    "path" : "/acronyms/fu_geology/MORELIQ6",
+    "value" : "liquid_silver"
+  },
+  {
+    "op" : "add",
+    "path" : "/acronyms/fu_geology/MORELIQ7",
+    "value" : "liquid_titanium"
+  },
+  {
+    "op" : "add",
+    "path" : "/acronyms/fu_geology/MORELIQ8",
+    "value" : "liquid_tungsten"
+  }
+]
