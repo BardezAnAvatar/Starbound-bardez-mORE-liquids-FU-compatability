@@ -2,6 +2,6 @@
   {
     "op": "replace",
     "path": "/description/-",
-    "value": "Molten silver (^gray;Ag^reset;); melts at 1235 K (961.8°C) under standard pressure. Very pretty."
+    "value": "Molten silver (^gray;Ag^reset;); melts at 1235 K (961.8°C) under standard pressure. Very pretty.\n^yellow;Centrifugable^reset;."
   }
 ]

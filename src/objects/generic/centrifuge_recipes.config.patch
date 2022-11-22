@@ -1,0 +1,82 @@
+[
+  {
+    "op" : "add",
+    "path" : "/itemMapLiquids/-",
+    "value" : {
+      "moltencoal": {
+        "diamond": ["rarest", 1],
+        "graphene": ["rare", 1],
+        "crystal": ["uncommon", 1],
+        "fu_carbon": ["common", 1]
+        "fu_carbondioxide": ["normal", 2],
+      }
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/itemMapLiquids/-",
+    "value" : {
+      "moltencopper": {
+        "ff_silicon": ["rare", 1],
+        "copperore": ["common", 1],
+        "fu_carbondioxide": ["normal", 1]
+      }
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/itemMapLiquids/-",
+    "value" : {
+      "moltengold": {
+        "ff_silicon": ["rare", 1],
+        "goldore": ["common", 1],
+        "fu_carbondioxide": ["normal", 1]
+      }
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/itemMapLiquids/-",
+    "value" : {
+      "moltenpixel": {
+        "diamondblockmaterial": ["rarest", 1],
+        "treasurehoard": ["rare", 1],
+        "money": ["normal", 20],
+      }
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/itemMapLiquids/-",
+    "value" : {
+      "moltensilver": {
+        "ff_silicon": ["rare", 1],
+        "silverore": ["common", 1],
+        "fu_carbondioxide": ["normal", 1]
+      }
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/itemMapLiquids/-",
+    "value" : {
+      "moltentitanium": {
+        "ff_silicon": ["rare", 1],
+        "titaniumore": ["common", 1],
+        "fu_carbondioxide": ["normal", 1]
+      }
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/itemMapLiquids/-",
+    "value" : {
+      "moltentungsten": {
+        "fu_nitrogen": ["rarest", 1],
+        "fu_hydrogen": ["rare", 1],
+        "tungstenore": ["common", 1],
+        "fu_carbon": ["normal", 1]
+      }
+    }
+  }
+]

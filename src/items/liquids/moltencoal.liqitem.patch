@@ -2,6 +2,6 @@
   {
     "op": "replace",
     "path": "/description/-",
-    "value": "Liquified ... coal? How is this even a thing?"
+    "value": "Liquified ... coal? How is this even a thing?\n^yellow;Centrifugable^reset;."
   }
 ]
