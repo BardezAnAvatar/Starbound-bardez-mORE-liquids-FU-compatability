@@ -70,5 +70,16 @@
         "fu_carbondioxide": ["normal", 1]
       }
     }
+  },
+  {
+    "op" : "add",
+    "path" : "/itemMapLiquids/-",
+    "value" : {
+      "moltentitanium": {
+        "ff_silicon": ["rare", 1],
+        "titaniumore": ["common", 1],
+        "fu_carbondioxide": ["normal", 1]
+      }
+    }
   }
 ]
