@@ -6,7 +6,7 @@
       "diamond": ["rarest", 1],
       "graphene": ["rare", 1],
       "crystal": ["uncommon", 1],
-      "fu_carbon": ["common", 1]
+      "fu_carbon": ["common", 1],
       "fu_carbondioxide": ["normal", 2]
     }
   },
