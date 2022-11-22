@@ -2,8 +2,6 @@
   /*
   Note: Centrifuges only ever spawn 1 item per input. The second index after the commonality is not a spawn count, but instead
   the divisor of the occurrance. i.e.: makes it even rarer than it already is. See: /objects/bees/centrifuge.lua, method `update(dt)`
-
-  Note 2: It would be kind of funny to make a 20-pixel voxel just to bypass this for molten pixel, but seems beyond scope of the mod, really.
   */
   {
     "op" : "add",
