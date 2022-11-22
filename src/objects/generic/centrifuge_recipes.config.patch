@@ -66,5 +66,16 @@
         "fu_carbondioxide": ["normal", 1]
       }
     }
+  },
+  {
+    "op" : "add",
+    "path" : "/itemMapLiquids/-",
+    "value" : {
+      "moltentungsten": {
+        "fu_hydrogen": ["rare", 1],
+        "tungstenore": ["common", 1],
+        "fu_carbon": ["normal", 1]
+      }
+    }
   }
 ]
