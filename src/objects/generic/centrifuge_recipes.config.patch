@@ -1,82 +1,73 @@
 [
+  /*
+  Note: Centrifuges only ever spawn 1 item per input. The second index after the commonality is not a spawn count, but instead
+  the divisor of the occurrance. i.e.: makes it even rarer than it already is. See: /objects/bees/centrifuge.lua, method `update(dt)`
+  */
   {
     "op" : "add",
-    "path" : "/itemMapLiquids/-",
+    "path" : "/itemMapLiquids/moltencoal",
     "value" : {
-      "moltencoal": {
-        "diamond": ["rarest", 1],
-        "graphene": ["rare", 1],
-        "crystal": ["uncommon", 1],
-        "fu_carbon": ["common", 1]
-        "fu_carbondioxide": ["normal", 2],
-      }
+      "diamond": ["rarest", 20],
+      "graphene": ["rare", 1],
+      "crystal": ["uncommon", 1],
+      "fu_carbon": ["common", 1],
+      "fu_carbondioxide": ["normal", 1]
     }
   },
   {
     "op" : "add",
-    "path" : "/itemMapLiquids/-",
+    "path" : "/itemMapLiquids/moltencopper",
     "value" : {
-      "moltencopper": {
-        "ff_silicon": ["rare", 1],
-        "copperore": ["common", 1],
-        "fu_carbondioxide": ["normal", 1]
-      }
+      "ff_silicon": ["rare", 1],
+      "copperore": ["common", 1],
+      "fu_carbondioxide": ["normal", 1]
     }
   },
   {
     "op" : "add",
-    "path" : "/itemMapLiquids/-",
+    "path" : "/itemMapLiquids/moltengold",
     "value" : {
-      "moltengold": {
-        "ff_silicon": ["rare", 1],
-        "goldore": ["common", 1],
-        "fu_carbondioxide": ["normal", 1]
-      }
+      "ff_silicon": ["rare", 1],
+      "goldore": ["common", 1],
+      "fu_carbondioxide": ["normal", 1]
     }
   },
   {
     "op" : "add",
-    "path" : "/itemMapLiquids/-",
+    "path" : "/itemMapLiquids/moltenpixel",
     "value" : {
-      "moltenpixel": {
-        "diamondblockmaterial": ["rarest", 1],
-        "treasurehoard": ["rare", 1],
-        "money": ["normal", 20],
-      }
+      "diamondblockmaterial": ["rarest", 5],
+      "treasurehoard": ["rare", 1],
+      "easyvoxel20": ["uncommon", 1],
+      "money": ["normal", 1]
     }
   },
   {
     "op" : "add",
-    "path" : "/itemMapLiquids/-",
+    "path" : "/itemMapLiquids/moltensilver",
     "value" : {
-      "moltensilver": {
-        "ff_silicon": ["rare", 1],
-        "silverore": ["common", 1],
-        "fu_carbondioxide": ["normal", 1]
-      }
+      "ff_silicon": ["rare", 1],
+      "silverore": ["common", 1],
+      "fu_carbondioxide": ["normal", 1]
     }
   },
   {
     "op" : "add",
-    "path" : "/itemMapLiquids/-",
+    "path" : "/itemMapLiquids/moltentitanium",
     "value" : {
-      "moltentitanium": {
-        "ff_silicon": ["rare", 1],
-        "titaniumore": ["common", 1],
-        "fu_carbondioxide": ["normal", 1]
-      }
+      "ff_silicon": ["rare", 1],
+      "titaniumore": ["common", 1],
+      "fu_carbondioxide": ["normal", 1]
     }
   },
   {
     "op" : "add",
-    "path" : "/itemMapLiquids/-",
+    "path" : "/itemMapLiquids/moltentungsten",
     "value" : {
-      "moltentungsten": {
-        "fu_nitrogen": ["rarest", 1],
-        "fu_hydrogen": ["rare", 1],
-        "tungstenore": ["common", 1],
-        "fu_carbon": ["normal", 1]
-      }
+      "fu_nitrogen": ["rarest", 1],
+      "fu_hydrogen": ["rare", 1],
+      "tungstenore": ["common", 1],
+      "fu_carbon": ["normal", 1]
     }
   }
 ]

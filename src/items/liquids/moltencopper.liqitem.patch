@@ -1,7 +1,7 @@
 [
   {
     "op": "replace",
-    "path": "/description/-",
+    "path": "/description",
     "value": "Molten copper (^gray;Cu^reset;); melts at 1358 K (1085°C) under standard pressure.\n^yellow;Centrifugable^reset;."
   }
 ]
