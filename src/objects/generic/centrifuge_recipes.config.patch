@@ -1,13 +1,19 @@
 [
+  /*
+  Note: Centrifuges only ever spawn 1 item per input. The second index after the commonality is not a spawn count, but instead
+  the divisor of the occurrance. i.e.: makes it even rarer than it already is. See: /objects/bees/centrifuge.lua, method `update(dt)`
+
+  Note 2: It would be kind of funny to make a 20-pixel voxel just to bypass this for molten pixel, but seems beyond scope of the mod, really.
+  */
   {
     "op" : "add",
     "path" : "/itemMapLiquids/moltencoal",
     "value" : {
-      "diamond": ["rarest", 1],
+      "diamond": ["rarest", 20],
       "graphene": ["rare", 1],
       "crystal": ["uncommon", 1],
       "fu_carbon": ["common", 1],
-      "fu_carbondioxide": ["normal", 2]
+      "fu_carbondioxide": ["normal", 1]
     }
   },
   {
@@ -32,9 +38,9 @@
     "op" : "add",
     "path" : "/itemMapLiquids/moltenpixel",
     "value" : {
-      "diamondblockmaterial": ["rarest", 1],
+      "diamondblockmaterial": ["rarest", 5],
       "treasurehoard": ["rare", 1],
-      "money": ["normal", 20]
+      "money": ["normal", 1]
     }
   },
   {
