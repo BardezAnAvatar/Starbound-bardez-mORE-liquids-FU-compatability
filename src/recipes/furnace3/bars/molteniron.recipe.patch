@@ -1,0 +1,7 @@
+[
+  {
+    "op" : "replace",
+    "path" : "/output",
+    "value" : { "item" : "liquidironfu", "count" : 1 }
+  }
+]
