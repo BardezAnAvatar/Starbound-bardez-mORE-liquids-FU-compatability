@@ -1,6 +1,6 @@
 {
   "input" : [
-    { "item" : "liquidironfu", "count" : 1 }
+    { "item" : "liquidironfu", "count" : 10 }
   ],
   "output" : { "item" : "ironbar", "count" : 1 },
   "duration" : 0.125,
