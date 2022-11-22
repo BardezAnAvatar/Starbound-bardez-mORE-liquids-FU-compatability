@@ -6,7 +6,7 @@
     "value" : {
       "icon" : "/items/liquids/moltencopper.png",
       "children" : [ ],
-      "position" : [20, 60],
+      "position" : [20, 70],
       "price" : [["fuscienceresource", 1000],["copperbar", 3]],
       "unlocks" : [ "moltencopper" ]
     }
@@ -40,7 +40,7 @@
     "value" : {
       "icon" : "/items/liquids/moltengold.png",
       "children" : [ ],
-      "position" : [50, 60],
+      "position" : [50, 70],
       "price" : [["fuscienceresource", 1000],["goldbar", 3]],
       "unlocks" : [ "moltengold" ]
     }
@@ -74,7 +74,7 @@
     "value" : {
       "icon" : "/items/liquids/moltentungsten.png",
       "children" : [ ],
-      "position" : [90, 80],
+      "position" : [110, 100],
       "price" : [["fuscienceresource", 1000],["tungstenbar", 3]],
       "unlocks" : [ "moltentungsten" ]
     }
@@ -86,7 +86,7 @@
     "value" : {
       "icon" : "/items/liquids/moltenpixel.png",
       "children" : [ ],
-      "position" : [110, 80],
+      "position" : [130, 100],
       "price" : [["fuscienceresource", 1000],["money", 20000]],
       "unlocks" : [ "moltenpixel" ]
     }
