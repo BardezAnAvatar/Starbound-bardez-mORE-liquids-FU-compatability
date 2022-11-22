@@ -171,5 +171,46 @@
     "op" : "add",
     "path" : "/strings/research/liquid_pixel",
     "value" : [ "Molten Pixel", "^orange;Tier 3^reset;\n\n^cyan;Pixel^reset;, heated to its melting point. Tempting to swim in. Requires an atomic furnace." ]
+  },
+  //acronyms
+  {
+    "op" : "add",
+    "path" : "/acronyms/fu_geology/MORELIQ1",
+    "value" : "liquid_coal"
+  },
+  {
+    "op" : "add",
+    "path" : "/acronyms/fu_geology/MORELIQ2",
+    "value" : "liquid_copper"
+  },
+  {
+    "op" : "add",
+    "path" : "/acronyms/fu_geology/MORELIQ3",
+    "value" : "liquid_gold"
+  },
+  {
+    "op" : "add",
+    "path" : "/acronyms/fu_geology/MORELIQ4",
+    "value" : "liquid_iron"
+  },
+  {
+    "op" : "add",
+    "path" : "/acronyms/fu_geology/MORELIQ5",
+    "value" : "liquid_pixel"
+  },
+  {
+    "op" : "add",
+    "path" : "/acronyms/fu_geology/MORELIQ6",
+    "value" : "liquid_silver"
+  },
+  {
+    "op" : "add",
+    "path" : "/acronyms/fu_geology/MORELIQ7",
+    "value" : "liquid_titanium"
+  },
+  {
+    "op" : "add",
+    "path" : "/acronyms/fu_geology/MORELIQ8",
+    "value" : "liquid_tungsten"
   }
 ]
