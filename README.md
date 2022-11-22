@@ -15,3 +15,8 @@ This mod does the following:
 
 - TODO for future releases:
    - Add research nodes to FU research tree for the molten items in the chemistry tree
+
+
+## Attributions
+- Wrench icon appropriated from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Configure_openclipart.png) by Etz Haim. The graphic layer for this mod can be licensed under its terms, I guess.
+- Frackin' Universe logo appropriated from the [Frackin' Universe](https://steamcommunity.com/sharedfiles/filedetails/?id=729480149) mod
