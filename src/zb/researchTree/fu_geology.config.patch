@@ -1,0 +1,134 @@
+[
+  //liquid copper
+  {
+    "op" : "add",
+    "path" : "/researchTree/fu_geology/liquid_copper",
+    "value" : {
+      "icon" : "/items/liquids/moltencopper.png",
+      "children" : [ ],
+      "position" : [20, 60],
+      "price" : [["fuscienceresource", 1000],["copperbar", 3]],
+      "unlocks" : [ "moltencopper" ]
+    }
+  },
+  {
+    "op" : "replace",
+    "path" : "/researchTree/fu_geology/metals_copper/children",
+    "value" : [ "liquid_copper" ]
+  },
+  //liquid iron
+  {
+    "op" : "add",
+    "path" : "/researchTree/fu_geology/liquid_iron",
+    "value" : {
+      "icon" : "/items/liquids/liquidironicon.png",
+      "children" : [ ],
+      "position" : [0, -60],
+      "price" : [["fuscienceresource", 1000],["ironbar", 3]],
+      "unlocks" : [ "liquidironfu" ]
+    }
+  },
+  {
+    "op" : "replace",
+    "path" : "/researchTree/fu_geology/metals_iron/children",
+    "value" : [ "liquid_iron" ]
+  },
+  //liquid gold
+  {
+    "op" : "add",
+    "path" : "/researchTree/fu_geology/liquid_gold",
+    "value" : {
+      "icon" : "/items/liquids/moltengold.png",
+      "children" : [ ],
+      "position" : [40, 60],
+      "price" : [["fuscienceresource", 1000],["goldbar", 3]],
+      "unlocks" : [ "moltengold" ]
+    }
+  },
+  {
+    "op" : "replace",
+    "path" : "/researchTree/fu_geology/metals_gold/children",
+    "value" : [ "liquid_gold" ]
+  },
+  //liquid silver
+  {
+    "op" : "add",
+    "path" : "/researchTree/fu_geology/liquid_silver",
+    "value" : {
+      "icon" : "/items/liquids/moltensilver.png",
+      "children" : [ ],
+      "position" : [40, -60],
+      "price" : [["fuscienceresource", 1000],["silverbar", 3]],
+      "unlocks" : [ "moltensilver" ]
+    }
+  },
+  {
+    "op" : "replace",
+    "path" : "/researchTree/fu_geology/metals_silver/children",
+    "value" : [ "liquid_silver" ]
+  },
+  //liquid tungsten
+  {
+    "op" : "add",
+    "path" : "/researchTree/fu_geology/liquid_tungsten",
+    "value" : {
+      "icon" : "/items/liquids/moltentungsten.png",
+      "children" : [ ],
+      "position" : [90, 0],
+      "price" : [["fuscienceresource", 1000],["tungstenbar", 3]],
+      "unlocks" : [ "moltentungsten" ]
+    }
+  },
+  //liquid pixel
+  {
+    "op" : "add",
+    "path" : "/researchTree/fu_geology/liquid_pixel",
+    "value" : {
+      "icon" : "/items/liquids/moltenpixel.png",
+      "children" : [ ],
+      "position" : [110, 0],
+      "price" : [["fuscienceresource", 1000],["money", 20000]],
+      "unlocks" : [ "moltenpixel" ]
+    }
+  },
+  //both liquid tungsten and pixel as children
+  {
+    "op" : "replace",
+    "path" : "/researchTree/fu_geology/metals_tungsten/children",
+    "value" : [ "liquid_tungsten", "liquid_pixel" ]
+  },
+  //liquid titanium
+  {
+    "op" : "add",
+    "path" : "/researchTree/fu_geology/liquid_titanium",
+    "value" : {
+      "icon" : "/items/liquids/moltentitanium.png",
+      "children" : [ ],
+      "position" : [140, 80],
+      "price" : [["fuscienceresource", 1000],["titaniumbar", 3]],
+      "unlocks" : [ "moltentitanium" ]
+    }
+  },
+  {
+    "op" : "replace",
+    "path" : "/researchTree/fu_geology/metals_titanium/children",
+    "value" : [ "liquid_titanium" ]
+  },
+  //liquid coal
+  {
+    "op" : "add",
+    "path" : "/researchTree/fu_geology/liquid_coal",
+    "value" : {
+      "icon" : "/items/liquids/moltencoal.png",
+      "children" : [ ],
+      "position" : [80, 80],
+      "price" : [["fuscienceresource", 1000],["coalore", 20], ["unstableparticles", 5]],
+      "unlocks" : [ "moltencoal" ]
+    }
+  },
+  {
+    "op" : "replace",
+    "path" : "/researchTree/fu_geology/metals_alloy1/children",
+    "value" : [ "liquid_coal" ]
+  }
+]
