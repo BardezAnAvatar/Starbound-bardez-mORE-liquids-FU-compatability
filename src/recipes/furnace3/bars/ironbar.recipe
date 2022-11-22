@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "liquidironfu", "count" : 1 }
+  ],
+  "output" : { "item" : "ironbar", "count" : 1 },
+  "duration" : 0.125,
+  "groups" : [ "craftingfurnace3", "bars", "all" ]
+}
