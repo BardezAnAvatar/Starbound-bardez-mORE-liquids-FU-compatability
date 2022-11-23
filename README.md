@@ -7,7 +7,7 @@ This repo is a mod for [Starbound](https://playstarbound.com/), based on top of 
 
 This mod does the following:
 
-- Fixes the still-remaining conflict between `Molten Coal` in mORE Liquids and `Refined Mech Fuel` when coal placed in the world
+- Fixes the still-remaining conflict between `Molten Coal` in mORE Liquids and `Refined Mech Fuel` when coal placed in the world (uses liquid ID `101`)
 - Converts `Molten Iron` from mORE Liquids into `Liquid Iron` from Frackin' Universe (because it has all of the interactions in FU)
 - Adds centrifugable recipes from mORE Liquids to FU advanced centrifuges
 - Adds all conversion recipes from liquids to solids from mORE Liquids to Atomic Furnace
