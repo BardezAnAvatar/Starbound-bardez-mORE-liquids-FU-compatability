@@ -14,6 +14,8 @@ This mod does the following:
 - Adds in some somewhat more intelligent and variant language to the liquids, not just the "pulled this out too soon" text.
 - Adds research nodes to FU research tree for the molten items in the geology tree
 
+TODO: experiment if I can remove indexes with tests on `/path/-`
+
 
 ## Attributions
 - Wrench icon appropriated from [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Configure_openclipart.png) by Etz Haim. The graphic layer for this mod can be licensed under its terms, I guess.
