@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "moltenpixel", "count" : 1 }
-  ],
-  "output" : { "item" : "money", "count" : 5 },
-  "duration" : 0.125,
-  "groups" : [ "craftingfurnace3", "bars", "all" ]
-}
