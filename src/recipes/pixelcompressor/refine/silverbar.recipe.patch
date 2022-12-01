@@ -1,0 +1,14 @@
+[
+  {
+    "op": "replace",
+    "path": "/input",
+    "value": [
+      { "item" : "moltensilver", "count" : 4 }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/output",
+    "value": { "item" : "silverbar", "count" : 1 }
+  }
+]

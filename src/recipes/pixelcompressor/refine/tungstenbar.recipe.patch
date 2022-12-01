@@ -1,0 +1,14 @@
+[
+  {
+    "op": "replace",
+    "path": "/input",
+    "value": [
+      { "item" : "moltentungsten", "count" : 4 }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/output",
+    "value": { "item" : "tungstenbar", "count" : 1 }
+  }
+]
