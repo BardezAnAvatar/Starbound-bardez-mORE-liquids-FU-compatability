@@ -3,12 +3,12 @@
     "op": "replace",
     "path": "/input",
     "value": [
-      { "item" : "ironbar", "count" : 1 }
+      { "item" : "coalore", "count" : 1 }
     ]
   },
   {
     "op" : "replace",
     "path" : "/output",
-    "value" : { "item" : "liquidironfu", "count" : 4 }
+    "value" : { "item" : "moltencoal", "count" : 4 }
   }
 ]
