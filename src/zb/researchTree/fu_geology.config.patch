@@ -39,7 +39,7 @@
     "value" : {
       "icon" : "/items/liquids/moltencopper.png",
       "children" : [ ],
-      "position" : [20, 70],
+      "position" : [0, 80],
       "price" : [["fuscienceresource", 1000],["copperbar", 3]],
       "unlocks" : [ "moltencopper" ]
     }
@@ -73,7 +73,7 @@
     "value" : {
       "icon" : "/items/liquids/moltengold.png",
       "children" : [ ],
-      "position" : [50, 70],
+      "position" : [40, 80],
       "price" : [["fuscienceresource", 1000],["goldbar", 3]],
       "unlocks" : [ "moltengold" ]
     }
