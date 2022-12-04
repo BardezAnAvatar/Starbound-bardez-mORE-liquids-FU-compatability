@@ -8,5 +8,10 @@
     "op": "replace",
     "path": "/rarity",
     "value": "uncommon"
+  },
+  {
+    "op": "replace",
+    "path": "/shortdescription",
+    "value": "Liquid Titanium"
   }
 ]
