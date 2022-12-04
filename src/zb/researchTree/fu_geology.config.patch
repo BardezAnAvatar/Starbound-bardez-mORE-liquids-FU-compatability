@@ -108,7 +108,7 @@
     "value" : {
       "icon" : "/items/liquids/moltencoal.png",
       "children" : [ ],
-      "position" : [340, -60],
+      "position" : [337, -60],
       "price" : [["fuscienceresource", 8000],["coalore", 20], ["unstableparticles", 5]],
       "unlocks" : [ "moltencoal" ]
     }
@@ -125,7 +125,7 @@
     "value" : {
       "icon" : "/items/liquids/moltenpixel.png",
       "children" : [ ],
-      "position" : [360, -60],
+      "position" : [362, -60],
       "price" : [["fuscienceresource", 8000], ["easyvoxel10k", 2], ["easyvoxel5k", 2], ["easyvoxel2k", 2], ["easyvoxel1k", 2], ["money", 9999] ],
       "unlocks" : [ "moltenpixel" ]
     }
