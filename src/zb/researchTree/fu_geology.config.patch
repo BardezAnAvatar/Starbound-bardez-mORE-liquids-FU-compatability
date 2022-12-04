@@ -6,7 +6,7 @@
     "value" : {
       "icon" : "/items/liquids/moltencopper.png",
       "children" : [ ],
-      "position" : [20, 70],
+      "position" : [0, 80],
       "price" : [["fuscienceresource", 1000],["copperbar", 3]],
       "unlocks" : [ "moltencopper" ]
     }
@@ -40,7 +40,7 @@
     "value" : {
       "icon" : "/items/liquids/moltengold.png",
       "children" : [ ],
-      "position" : [50, 70],
+      "position" : [40, 80],
       "price" : [["fuscienceresource", 1000],["goldbar", 3]],
       "unlocks" : [ "moltengold" ]
     }
@@ -74,28 +74,15 @@
     "value" : {
       "icon" : "/items/liquids/moltentungsten.png",
       "children" : [ ],
-      "position" : [95, 110],
+      "position" : [110, 80],
       "price" : [["fuscienceresource", 1000],["tungstenbar", 3]],
       "unlocks" : [ "moltentungsten" ]
     }
   },
-  //liquid pixel
-  {
-    "op" : "add",
-    "path" : "/researchTree/fu_geology/liquid_pixel",
-    "value" : {
-      "icon" : "/items/liquids/moltenpixel.png",
-      "children" : [ ],
-      "position" : [125, 110],
-      "price" : [["fuscienceresource", 1000],["money", 20000]],
-      "unlocks" : [ "moltenpixel" ]
-    }
-  },
-  //both liquid tungsten and pixel as children
   {
     "op" : "replace",
     "path" : "/researchTree/fu_geology/metals_tungsten/children",
-    "value" : [ "liquid_tungsten", "liquid_pixel" ]
+    "value" : [ "liquid_tungsten" ]
   },
   //liquid titanium
   {
@@ -121,56 +108,73 @@
     "value" : {
       "icon" : "/items/liquids/moltencoal.png",
       "children" : [ ],
-      "position" : [80, 80],
-      "price" : [["fuscienceresource", 1000],["coalore", 20], ["unstableparticles", 5]],
+      "position" : [337, -60],
+      "price" : [["fuscienceresource", 8000],["coalore", 20], ["unstableparticles", 5]],
       "unlocks" : [ "moltencoal" ]
     }
   },
   {
-    "op" : "replace",
-    "path" : "/researchTree/fu_geology/metals_alloy1/children",
-    "value" : [ "liquid_coal" ]
+    "op" : "add",
+    "path" : "/researchTree/fu_geology/metals_tier5/children/-",
+    "value" : "liquid_coal"
+  },
+  //liquid pixel
+  {
+    "op" : "add",
+    "path" : "/researchTree/fu_geology/liquid_pixel",
+    "value" : {
+      "icon" : "/items/liquids/moltenpixel.png",
+      "children" : [ ],
+      "position" : [362, -60],
+      "price" : [["fuscienceresource", 8000], ["easyvoxel10k", 2], ["easyvoxel5k", 2], ["easyvoxel2k", 2], ["easyvoxel1k", 2], ["money", 9999] ],
+      "unlocks" : [ "moltenpixel" ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/researchTree/fu_geology/metals_tier5/children/-",
+    "value" : "liquid_pixel"
   },
   //strings
   {
     "op" : "add",
     "path" : "/strings/research/liquid_copper",
-    "value" : [ "Molten Copper", "^orange;Tier 1^reset;\n\n^cyan;Copper^reset;, heated to its melting point. Requires a primitive furnace." ]
+    "value" : [ "Molten Copper", "^orange;Tier 1^reset;\n\n^cyan;Copper^reset;, heated to its melting point. Requires a ^orange;Primitive Furnace^reset;." ]
   },
   {
     "op" : "add",
     "path" : "/strings/research/liquid_iron",
-    "value" : [ "Molten Iron", "^orange;Tier 1^reset;\n\n^cyan;Iron^reset;, heated to its melting point. Requires a primitive furnace." ]
+    "value" : [ "Molten Iron", "^orange;Tier 1^reset;\n\n^cyan;Iron^reset;, heated to its melting point. Requires a ^orange;Primitive Furnace^reset;." ]
   },
   {
     "op" : "add",
     "path" : "/strings/research/liquid_gold",
-    "value" : [ "Molten Gold", "^orange;Tier 2^reset;\n\n^cyan;Gold^reset;, heated to its melting point. Requires a primitive furnace." ]
+    "value" : [ "Molten Gold", "^orange;Tier 2^reset;\n\n^cyan;Gold^reset;, heated to its melting point. Requires a ^orange;Primitive Furnace^reset;." ]
   },
   {
     "op" : "add",
     "path" : "/strings/research/liquid_silver",
-    "value" : [ "Molten Silver", "^orange;Tier 2^reset;\n\n^cyan;Silver^reset;, heated to its melting point. Requires a primitive furnace." ]
+    "value" : [ "Molten Silver", "^orange;Tier 2^reset;\n\n^cyan;Silver^reset;, heated to its melting point. Requires a ^orange;Primitive Furnace^reset;." ]
   },
   {
     "op" : "add",
     "path" : "/strings/research/liquid_tungsten",
-    "value" : [ "Molten Tungsten", "^orange;Tier 2^reset;\n\n^cyan;Tungsten^reset; (a.k.a. Wolfram), heated to its melting point. Requires a primitive furnace." ]
+    "value" : [ "Molten Tungsten", "^orange;Tier 2^reset;\n\n^cyan;Tungsten^reset; (a.k.a. Wolfram), heated to its melting point. Requires a ^orange;Primitive Furnace^reset;." ]
   },
   {
     "op" : "add",
     "path" : "/strings/research/liquid_titanium",
-    "value" : [ "Molten Titanium", "^orange;Tier 3^reset;\n\n^cyan;Titanium^reset;, heated to its melting point. Requires an industrial furnace." ]
+    "value" : [ "Molten Titanium", "^orange;Tier 3^reset;\n\n^cyan;Titanium^reset;, heated to its melting point. Requires an ^orange;Industrial Furnace^reset;." ]
   },
   {
     "op" : "add",
     "path" : "/strings/research/liquid_coal",
-    "value" : [ "Molten Coal", "^orange;Tier 3^reset;\n\n^cyan;Coal^reset;, molten through processes undescribed. Requires an atomic furnace." ]
+    "value" : [ "Molten Coal", "^orange;Tier 5^reset;\n\n^cyan;Coal^reset;, molten through processes undescribed.\n\nRequires an ^orange;Atomic Furnace^reset;." ]
   },
   {
     "op" : "add",
     "path" : "/strings/research/liquid_pixel",
-    "value" : [ "Molten Pixel", "^orange;Tier 3^reset;\n\n^cyan;Pixel^reset;, heated to its melting point. Tempting to swim in. Requires an atomic furnace." ]
+    "value" : [ "Molten Pixel", "^orange;Tier 5^reset;\n\n^cyan;Pixel^reset;, heated to its melting point. Tempting to swim in.\n\nRequires an ^orange;Atomic Furnace^reset;." ]
   },
   //acronyms
   {
