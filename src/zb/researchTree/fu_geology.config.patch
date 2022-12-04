@@ -103,15 +103,10 @@
     "value" : {
       "icon" : "/items/liquids/moltenpixel.png",
       "children" : [ ],
-      "position" : [125, 110],
+      "position" : [360, -80],
       "price" : [["fuscienceresource", 1000],["money", 20000]],
       "unlocks" : [ "moltenpixel" ]
     }
-  },
-  {
-    "op" : "replace",
-    "path" : "/researchTree/fu_geology/metals_tungsten/children",
-    "value" : [ "liquid_tungsten" ]
   },
   //liquid coal
   {
@@ -120,15 +115,15 @@
     "value" : {
       "icon" : "/items/liquids/moltencoal.png",
       "children" : [ ],
-      "position" : [80, 80],
+      "position" : [340, -80],
       "price" : [["fuscienceresource", 1000],["coalore", 20], ["unstableparticles", 5]],
       "unlocks" : [ "moltencoal" ]
     }
   },
   {
     "op" : "replace",
-    "path" : "/researchTree/fu_geology/metals_alloy1/children",
-    "value" : [ "liquid_coal" ]
+    "path" : "/researchTree/fu_geology/metals_tier5/children",
+    "value" : [ "liquid_coal", "liquid_pixel" ]
   },
   //strings
   {
