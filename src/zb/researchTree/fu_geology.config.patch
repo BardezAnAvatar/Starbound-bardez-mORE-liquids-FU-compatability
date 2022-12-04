@@ -74,7 +74,7 @@
     "value" : {
       "icon" : "/items/liquids/moltentungsten.png",
       "children" : [ ],
-      "position" : [95, 110],
+      "position" : [110, 80],
       "price" : [["fuscienceresource", 1000],["tungstenbar", 3]],
       "unlocks" : [ "moltentungsten" ]
     }
@@ -91,11 +91,10 @@
       "unlocks" : [ "moltenpixel" ]
     }
   },
-  //both liquid tungsten and pixel as children
   {
     "op" : "replace",
     "path" : "/researchTree/fu_geology/metals_tungsten/children",
-    "value" : [ "liquid_tungsten", "liquid_pixel" ]
+    "value" : [ "liquid_tungsten" ]
   },
   //liquid titanium
   {
