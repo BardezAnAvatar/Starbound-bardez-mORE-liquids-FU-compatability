@@ -1,37 +1,4 @@
 [
-  //first, the radioactives get in the way. Let's move them.
-
-  //plutonium
-  {
-    "op" : "replace",
-    "path" : "/researchTree/fu_geology/isotopes1/position/0", 
-    "value" : -40
-  },
-  //uranium
-  {
-    "op" : "replace",
-    "path" : "/researchTree/fu_geology/isotopes2/position/0", 
-    "value" : 0
-  },
-  //neptunium
-  {
-    "op" : "replace",
-    "path" : "/researchTree/fu_geology/isotopes3/position/0", 
-    "value" : -80
-  },
-  //thorium
-  {
-    "op" : "replace",
-    "path" : "/researchTree/fu_geology/isotopes4/position/0", 
-    "value" : -80
-  },
-  //enriched isotopes
-  {
-    "op" : "replace",
-    "path" : "/researchTree/fu_geology/isotopes_enriched/position/0", 
-    "value" : 30
-  },
-
   //liquid copper
   {
     "op" : "add",
