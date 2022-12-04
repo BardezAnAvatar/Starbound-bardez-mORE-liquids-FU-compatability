@@ -96,6 +96,23 @@
     "path" : "/researchTree/fu_geology/metals_titanium/children",
     "value" : [ "liquid_titanium" ]
   },
+  //liquid pixel
+  {
+    "op" : "add",
+    "path" : "/researchTree/fu_geology/liquid_pixel",
+    "value" : {
+      "icon" : "/items/liquids/moltenpixel.png",
+      "children" : [ ],
+      "position" : [125, 110],
+      "price" : [["fuscienceresource", 1000],["money", 20000]],
+      "unlocks" : [ "moltenpixel" ]
+    }
+  },
+  {
+    "op" : "replace",
+    "path" : "/researchTree/fu_geology/metals_tungsten/children",
+    "value" : [ "liquid_tungsten" ]
+  },
   //liquid coal
   {
     "op" : "add",
