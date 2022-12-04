@@ -10,5 +10,16 @@
     "op": "replace",
     "path": "/output",
     "value": { "item" : "silverbar", "count" : 1 }
+  },
+  /* both of the following prevent un-crafting in other mods */
+  {
+    "op" : "add",
+    "path" : "/groups/-",
+    "value" : "nouncrafting"
+  },
+  {
+    "op" : "add",
+    "path" : "/groups/-",
+    "value" : "norecycling"
   }
 ]
