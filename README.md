@@ -13,6 +13,7 @@ This mod does the following:
 ~~-Adds all conversion recipes from liquids to solids from mORE Liquids to Atomic Furnace~~
 - Adds in some somewhat more intelligent and variant language to the liquids, not just the "pulled this out too soon" text.
 - Adds research nodes to FU research tree for the molten items in the geology tree
+- Disables the uncrafting of liquids/bars via other mods (since this mod already does that and for FU consistency)
 
 TODO: experiment if I can remove indexes with tests on `/path/-`
 
