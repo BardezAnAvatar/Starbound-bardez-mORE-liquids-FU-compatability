@@ -121,9 +121,14 @@
     }
   },
   {
-    "op" : "replace",
-    "path" : "/researchTree/fu_geology/metals_tier5/children",
-    "value" : [ "liquid_coal", "liquid_pixel" ]
+    "op" : "add",
+    "path" : "/researchTree/fu_geology/metals_tier5/children/-",
+    "value" : "liquid_coal"
+  },
+  {
+    "op" : "add",
+    "path" : "/researchTree/fu_geology/metals_tier5/children/-",
+    "value" : "liquid_pixel"
   },
   //strings
   {
@@ -159,12 +164,12 @@
   {
     "op" : "add",
     "path" : "/strings/research/liquid_coal",
-    "value" : [ "Molten Coal", "^orange;Tier 3^reset;\n\n^cyan;Coal^reset;, molten through processes undescribed. Requires an ^orange;Atomic Furnace^reset;." ]
+    "value" : [ "Molten Coal", "^orange;Tier 3^reset;\n\n^cyan;Coal^reset;, molten through processes undescribed.\n\nRequires an ^orange;Atomic Furnace^reset;." ]
   },
   {
     "op" : "add",
     "path" : "/strings/research/liquid_pixel",
-    "value" : [ "Molten Pixel", "^orange;Tier 3^reset;\n\n^cyan;Pixel^reset;, heated to its melting point. Tempting to swim in. Requires an ^orange;Atomic Furnace^reset;." ]
+    "value" : [ "Molten Pixel", "^orange;Tier 3^reset;\n\n^cyan;Pixel^reset;, heated to its melting point. Tempting to swim in.\n\nRequires an ^orange;Atomic Furnace^reset;." ]
   },
   //acronyms
   {
