@@ -101,18 +101,6 @@
     "path" : "/researchTree/fu_geology/metals_titanium/children",
     "value" : [ "liquid_titanium" ]
   },
-  //liquid pixel
-  {
-    "op" : "add",
-    "path" : "/researchTree/fu_geology/liquid_pixel",
-    "value" : {
-      "icon" : "/items/liquids/moltenpixel.png",
-      "children" : [ ],
-      "position" : [360, -60],
-      "price" : [["fuscienceresource", 8000], ["easyvoxel10k", 2], ["easyvoxel5k", 2], ["easyvoxel2k", 2], ["easyvoxel1k", 2], ["money", 9999] ],
-      "unlocks" : [ "moltenpixel" ]
-    }
-  },
   //liquid coal
   {
     "op" : "add",
@@ -129,6 +117,18 @@
     "op" : "add",
     "path" : "/researchTree/fu_geology/metals_tier5/children/-",
     "value" : "liquid_coal"
+  },
+  //liquid pixel
+  {
+    "op" : "add",
+    "path" : "/researchTree/fu_geology/liquid_pixel",
+    "value" : {
+      "icon" : "/items/liquids/moltenpixel.png",
+      "children" : [ ],
+      "position" : [360, -60],
+      "price" : [["fuscienceresource", 8000], ["easyvoxel10k", 2], ["easyvoxel5k", 2], ["easyvoxel2k", 2], ["easyvoxel1k", 2], ["money", 9999] ],
+      "unlocks" : [ "moltenpixel" ]
+    }
   },
   {
     "op" : "add",
