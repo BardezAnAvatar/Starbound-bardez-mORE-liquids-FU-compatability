@@ -3,5 +3,10 @@
     "op": "replace",
     "path": "/description",
     "value": "Molten gold (^gray;Au^reset;); melts at 1337 K (1064 C) under standard pressure. Highly valued and very elite.\n^yellow;Centrifugable^reset;."
+  },
+  {
+    "op": "replace",
+    "path": "/shortdescription",
+    "value": "Liquid Gold"
   }
 ]
