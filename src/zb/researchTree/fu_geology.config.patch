@@ -104,7 +104,7 @@
       "icon" : "/items/liquids/moltenpixel.png",
       "children" : [ ],
       "position" : [360, -60],
-      "price" : [["fuscienceresource", 1000],["money", 20000]],
+      "price" : [["fuscienceresource", 1000], ["easyvoxel10k", 2], ["easyvoxel5k", 2], ["easyvoxel2k", 2], ["easyvoxel1k", 2], ["money", 9999] ],
       "unlocks" : [ "moltenpixel" ]
     }
   },
