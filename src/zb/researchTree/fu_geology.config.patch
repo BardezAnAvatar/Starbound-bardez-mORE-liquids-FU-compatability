@@ -103,7 +103,7 @@
     "value" : {
       "icon" : "/items/liquids/moltenpixel.png",
       "children" : [ ],
-      "position" : [360, -80],
+      "position" : [360, -60],
       "price" : [["fuscienceresource", 1000],["money", 20000]],
       "unlocks" : [ "moltenpixel" ]
     }
@@ -115,7 +115,7 @@
     "value" : {
       "icon" : "/items/liquids/moltencoal.png",
       "children" : [ ],
-      "position" : [340, -80],
+      "position" : [340, -60],
       "price" : [["fuscienceresource", 1000],["coalore", 20], ["unstableparticles", 5]],
       "unlocks" : [ "moltencoal" ]
     }
