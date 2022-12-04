@@ -10,5 +10,16 @@
     "op" : "replace",
     "path" : "/output",
     "value" : { "item" : "moltentungsten", "count" : 4 }
+  },
+  /* both of the following prevent un-crafting in other mods */
+  {
+    "op" : "add",
+    "path" : "/groups/-",
+    "value" : "nouncrafting"
+  },
+  {
+    "op" : "add",
+    "path" : "/groups/-",
+    "value" : "norecycling"
   }
 ]
