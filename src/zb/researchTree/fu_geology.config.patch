@@ -135,42 +135,42 @@
   {
     "op" : "add",
     "path" : "/strings/research/liquid_copper",
-    "value" : [ "Molten Copper", "^orange;Tier 1^reset;\n\n^cyan;Copper^reset;, heated to its melting point. Requires a primitive furnace." ]
+    "value" : [ "Molten Copper", "^orange;Tier 1^reset;\n\n^cyan;Copper^reset;, heated to its melting point. Requires a ^orange;Primitive Furnace^reset;." ]
   },
   {
     "op" : "add",
     "path" : "/strings/research/liquid_iron",
-    "value" : [ "Molten Iron", "^orange;Tier 1^reset;\n\n^cyan;Iron^reset;, heated to its melting point. Requires a primitive furnace." ]
+    "value" : [ "Molten Iron", "^orange;Tier 1^reset;\n\n^cyan;Iron^reset;, heated to its melting point. Requires a ^orange;Primitive Furnace^reset;." ]
   },
   {
     "op" : "add",
     "path" : "/strings/research/liquid_gold",
-    "value" : [ "Molten Gold", "^orange;Tier 2^reset;\n\n^cyan;Gold^reset;, heated to its melting point. Requires a primitive furnace." ]
+    "value" : [ "Molten Gold", "^orange;Tier 2^reset;\n\n^cyan;Gold^reset;, heated to its melting point. Requires a ^orange;Primitive Furnace^reset;." ]
   },
   {
     "op" : "add",
     "path" : "/strings/research/liquid_silver",
-    "value" : [ "Molten Silver", "^orange;Tier 2^reset;\n\n^cyan;Silver^reset;, heated to its melting point. Requires a primitive furnace." ]
+    "value" : [ "Molten Silver", "^orange;Tier 2^reset;\n\n^cyan;Silver^reset;, heated to its melting point. Requires a ^orange;Primitive Furnace^reset;." ]
   },
   {
     "op" : "add",
     "path" : "/strings/research/liquid_tungsten",
-    "value" : [ "Molten Tungsten", "^orange;Tier 2^reset;\n\n^cyan;Tungsten^reset; (a.k.a. Wolfram), heated to its melting point. Requires a primitive furnace." ]
+    "value" : [ "Molten Tungsten", "^orange;Tier 2^reset;\n\n^cyan;Tungsten^reset; (a.k.a. Wolfram), heated to its melting point. Requires a ^orange;Primitive Furnace^reset;." ]
   },
   {
     "op" : "add",
     "path" : "/strings/research/liquid_titanium",
-    "value" : [ "Molten Titanium", "^orange;Tier 3^reset;\n\n^cyan;Titanium^reset;, heated to its melting point. Requires an industrial furnace." ]
+    "value" : [ "Molten Titanium", "^orange;Tier 3^reset;\n\n^cyan;Titanium^reset;, heated to its melting point. Requires an ^orange;Industrial Furnace^reset;." ]
   },
   {
     "op" : "add",
     "path" : "/strings/research/liquid_coal",
-    "value" : [ "Molten Coal", "^orange;Tier 3^reset;\n\n^cyan;Coal^reset;, molten through processes undescribed. Requires an atomic furnace." ]
+    "value" : [ "Molten Coal", "^orange;Tier 3^reset;\n\n^cyan;Coal^reset;, molten through processes undescribed. Requires an ^orange;Atomic Furnace^reset;." ]
   },
   {
     "op" : "add",
     "path" : "/strings/research/liquid_pixel",
-    "value" : [ "Molten Pixel", "^orange;Tier 3^reset;\n\n^cyan;Pixel^reset;, heated to its melting point. Tempting to swim in. Requires an atomic furnace." ]
+    "value" : [ "Molten Pixel", "^orange;Tier 3^reset;\n\n^cyan;Pixel^reset;, heated to its melting point. Tempting to swim in. Requires an ^orange;Atomic Furnace^reset;." ]
   },
   //acronyms
   {
