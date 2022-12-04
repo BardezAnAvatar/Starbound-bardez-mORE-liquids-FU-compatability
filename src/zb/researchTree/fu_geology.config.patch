@@ -79,6 +79,11 @@
       "unlocks" : [ "moltentungsten" ]
     }
   },
+  {
+    "op" : "replace",
+    "path" : "/researchTree/fu_geology/metals_tungsten/children",
+    "value" : [ "liquid_tungsten" ]
+  },
   //liquid titanium
   {
     "op" : "add",
