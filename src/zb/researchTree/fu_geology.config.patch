@@ -144,7 +144,7 @@
   {
     "op" : "add",
     "path" : "/strings/research/liquid_iron",
-    "value" : [ "Molten Iron", "^orange;Tier 1^reset;\n\n^cyan;Iron^reset;, heated to its melting point.\n\nRequires a ^orange;Primitive Furnace^reset; to smelt." ]
+    "value" : [ "Molten Iron", "^orange;Tier 1^reset;\n\n^cyan;Iron^reset;, heated to its melting point of of 1811 K (1537 C) under standard pressure.\n\nRequires a ^orange;Primitive Furnace^reset; to smelt." ]
   },
   {
     "op" : "add",
