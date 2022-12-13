@@ -1,0 +1,19 @@
+[
+  //move to fission furnace because this is whacky AF
+  {
+    "op" : "replace",
+    "path" : "/groups/0",
+    "value" : "fissionfurnace"
+  },
+  /* both of the following prevent un-crafting in other mods */
+  {
+    "op" : "add",
+    "path" : "/groups/-",
+    "value" : "nouncrafting"
+  },
+  {
+    "op" : "add",
+    "path" : "/groups/-",
+    "value" : "norecycling"
+  }
+]
