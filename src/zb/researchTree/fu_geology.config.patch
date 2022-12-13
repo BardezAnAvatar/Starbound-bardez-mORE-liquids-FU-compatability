@@ -108,14 +108,14 @@
     "value" : {
       "icon" : "/items/liquids/moltencoal.png",
       "children" : [ ],
-      "position" : [337, -60],
+      "position" : [437, -60],
       "price" : [["fuscienceresource", 8000],["coalore", 20], ["unstableparticles", 5]],
       "unlocks" : [ "moltencoal" ]
     }
   },
   {
     "op" : "add",
-    "path" : "/researchTree/fu_geology/metals_tier5/children/-",
+    "path" : "/researchTree/fu_geology/metals_tier6/children/-",
     "value" : "liquid_coal"
   },
   //liquid pixel
@@ -125,14 +125,14 @@
     "value" : {
       "icon" : "/items/liquids/moltenpixel.png",
       "children" : [ ],
-      "position" : [362, -60],
+      "position" : [462, -60],
       "price" : [["fuscienceresource", 8000], ["easyvoxel10k", 2], ["easyvoxel5k", 2], ["easyvoxel2k", 2], ["easyvoxel1k", 2], ["money", 9999] ],
       "unlocks" : [ "moltenpixel" ]
     }
   },
   {
     "op" : "add",
-    "path" : "/researchTree/fu_geology/metals_tier5/children/-",
+    "path" : "/researchTree/fu_geology/metals_tier6/children/-",
     "value" : "liquid_pixel"
   },
   //strings
@@ -169,12 +169,12 @@
   {
     "op" : "add",
     "path" : "/strings/research/liquid_coal",
-    "value" : [ "Molten Coal", "^orange;Tier 5^reset;\n\n^cyan;Coal^reset;, molten through processes undescribed.\n\nRequires an ^orange;Atomic Furnace^reset; to smelt." ]
+    "value" : [ "Molten Coal", "^orange;Tier 6^reset;\n\n^cyan;Coal^reset;, molten through processes undescribed.\n\nRequires an ^orange;Atomic Furnace^reset; to smelt." ]
   },
   {
     "op" : "add",
     "path" : "/strings/research/liquid_pixel",
-    "value" : [ "Molten Pixel", "^orange;Tier 5^reset;\n\n^cyan;Pixel^reset;, heated to its melting point. Tempting to swim in.\n\nRequires an ^orange;Atomic Furnace^reset; to smelt." ]
+    "value" : [ "Molten Pixel", "^orange;Tier 6^reset;\n\n^cyan;Pixel^reset;, heated to its melting point. Tempting to swim in.\n\nRequires an ^orange;Atomic Furnace^reset; to smelt." ]
   },
   //acronyms
   {
