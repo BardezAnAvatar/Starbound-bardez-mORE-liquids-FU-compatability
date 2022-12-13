@@ -159,7 +159,7 @@
   {
     "op" : "add",
     "path" : "/strings/research/liquid_tungsten",
-    "value" : [ "Molten Tungsten", "^orange;Tier 2^reset;\n\n^cyan;Tungsten^reset; (a.k.a. Wolfram), heated to its melting point.\n\nRequires a ^orange;Primitive Furnace^reset; to smelt." ]
+    "value" : [ "Molten Tungsten", "^orange;Tier 2^reset;\n\n^cyan;Tungsten^reset; (a.k.a. Wolfram), heated to its melting point of 3695 K (3422 C) under standard pressure. Tungsten has the highest melting point of all known elements, barring carbon.\n\nRequires a ^orange;Primitive Furnace^reset; to smelt." ]
   },
   {
     "op" : "add",

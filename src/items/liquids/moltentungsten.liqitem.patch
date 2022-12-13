@@ -2,7 +2,7 @@
   {
     "op": "replace",
     "path": "/description",
-    "value": "Molten tungsten, a.k.a wolfram (^gray;W^reset;); melts at 3695 K (3422 C) under standard pressure. Highest melting point of all known elements, barring carbon.\n^yellow;Centrifugable^reset;."
+    "value": "A measure of molten tungsten, a.k.a wolfram (^gray;W^reset;);.\n^yellow;Centrifugable^reset;."
   },
   {
     "op": "replace",
