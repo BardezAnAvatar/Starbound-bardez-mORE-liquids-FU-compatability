@@ -37,7 +37,7 @@
   {
     "op" : "add",
     "path" : "/strings/research/liquid_coal",
-    "value" : [ "Molten Coal", "^orange;Tier 3^reset;\n\n^cyan;Coal^reset;, molten through sheer determination to see it done.Completely nonsensical, but that doesn't stop you, now does it?\n\nRequires a ^orange;Fission Furnace^reset; to smelt." ]
+    "value" : [ "Molten Coal", "^orange;Tier 3^reset;\n\n^cyan;Coal^reset;, molten through sheer determination to see it done. Completely nonsensical, but that doesn't stop you, now does it?\n\nRequires a ^orange;Fission Furnace^reset; to smelt." ]
   },
   {
     "op" : "add",
