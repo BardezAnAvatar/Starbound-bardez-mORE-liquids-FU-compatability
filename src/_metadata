@@ -5,7 +5,6 @@
   "includes" : ["FrackinUniverse", "mORE Liquids", "mORE Liquids Fix Patch", "bardez_mORE_liquids_furnace", "bardez-frackin-research-geology-isotopes-moved"],
   "link" : "steam://url/CommunityFilePage/2891773441",
   "name" : "mORE_liquids_frackin_patch",
-  "priority" : 0,
   "steamContentId" : "2891773441",
   "tags" : "Crafting and Building|Miscellaneous",
   "version" : "7.0.0"
