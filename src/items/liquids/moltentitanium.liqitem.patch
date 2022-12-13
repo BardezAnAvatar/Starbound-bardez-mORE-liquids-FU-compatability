@@ -2,7 +2,7 @@
   {
     "op": "replace",
     "path": "/description",
-    "value": "Molten titanium (^gray;Ti^reset;); melts at 1941 K (1668 C) under standard pressure. Extremely resistant to corrosion.\n^yellow;Centrifugable^reset;."
+    "value": "A measure of molten titanium (^gray;Ti^reset;);. Extremely resistant to corrosion.\n^yellow;Centrifugable^reset;."
   },
   {
     "op": "replace",
