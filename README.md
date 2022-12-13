@@ -14,6 +14,7 @@ This mod does the following:
 - Adds in some somewhat more intelligent and variant language to the liquids, not just the "pulled this out too soon" text.
 - Adds research nodes to FU research tree for the molten items in the geology tree
   - Coal and Pixels are on the madness tree for being silly
+- Moves molten coal and molten pixel to fission furnace for recipe, tiered for being silly/crazy
 - Disables the uncrafting of liquids/bars via other mods (since this mod already does that and for FU consistency)
 - Renames the `Molten XYZ` liquids to `Liquid XYZ` for consistency with Frackin' Universe
 
