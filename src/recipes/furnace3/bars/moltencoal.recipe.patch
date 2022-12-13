@@ -11,6 +11,12 @@
     "path" : "/output",
     "value" : { "item" : "moltencoal", "count" : 4 }
   },
+  //move to fission furnace because this is whacky AF
+  {
+    "op" : "replace",
+    "path" : "/groups/0",
+    "value" : "fissionfurnace"
+  },
   /* both of the following prevent un-crafting in other mods */
   {
     "op" : "add",
