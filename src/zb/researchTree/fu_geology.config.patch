@@ -139,7 +139,7 @@
   {
     "op" : "add",
     "path" : "/strings/research/liquid_copper",
-    "value" : [ "Molten Copper", "^orange;Tier 1^reset;\n\n^cyan;Copper^reset;.\n\nRequires a ^orange;Primitive Furnace^reset; to smelt." ]
+    "value" : [ "Molten Copper", "^orange;Tier 1^reset;\n\n^cyan;Copper^reset;, heated to its melting point of 1358 K (1085 C) under standard pressure.\n\nRequires a ^orange;Primitive Furnace^reset; to smelt." ]
   },
   {
     "op" : "add",
