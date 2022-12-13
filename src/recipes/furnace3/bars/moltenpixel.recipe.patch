@@ -1,16 +1,4 @@
 [
-  {
-    "op": "replace",
-    "path": "/input",
-    "value": [
-      { "item" : "coalore", "count" : 1 }
-    ]
-  },
-  {
-    "op" : "replace",
-    "path" : "/output",
-    "value" : { "item" : "moltencoal", "count" : 4 }
-  },
   //move to fission furnace because this is whacky AF
   {
     "op" : "replace",

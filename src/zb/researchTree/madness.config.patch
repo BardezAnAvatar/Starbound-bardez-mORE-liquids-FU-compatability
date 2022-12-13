@@ -1,0 +1,69 @@
+[
+  //liquid pixels
+  {
+    "op" : "add",
+    "path" : "/researchTree/frackinuniversemadness/liquid_pixel",
+    "value" : {
+      "icon" : "/items/liquids/moltenpixel.png",
+      "children" : [ ],
+      "position" : [192, -55],
+      "price" : [ ["fumadnessresource", 1500], ["fuscienceresource", 8000], ["easyvoxel10k", 2], ["easyvoxel5k", 2], ["easyvoxel2k", 2], ["easyvoxel1k", 2], ["money", 9999] ],
+      "unlocks" : [ "moltenpixel" ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/researchTree/frackinuniversemadness/liquid_tier2/children/-",
+    "value" : "liquid_pixel"
+  },
+  //liquid coal
+  {
+    "op" : "add",
+    "path" : "/researchTree/frackinuniversemadness/liquid_coal",
+    "value" : {
+      "icon" : "/items/liquids/moltencoal.png",
+      "children" : [ ],
+      "position" : [185, -80],
+      "price" : [ ["fumadnessresource", 1500], ["fuscienceresource", 8000], ["coalore", 20], ["unstableparticles", 5] ],
+      "unlocks" : [ "moltencoal" ]
+    }
+  },
+  {
+    "op" : "add",
+    "path" : "/researchTree/frackinuniversemadness/liquid_tier2/children/-",
+    "value" : "liquid_coal"
+  },
+  //strings
+  {
+    "op" : "add",
+    "path" : "/strings/research/liquid_coal",
+    "value" : [ "Molten Coal", "^orange;Tier 3^reset;\n\n^cyan;Coal^reset;, molten through sheer determination to see it done.Completely nonsensical, but that doesn't stop you, now does it?\n\nRequires a ^orange;Fission Furnace^reset; to smelt." ]
+  },
+  {
+    "op" : "add",
+    "path" : "/strings/research/liquid_pixel",
+    "value" : [ "Molten Pixel", "^orange;Tier 3^reset;\n\n^cyan;Pixel^reset;, heated to its melting point. Tempting to swim in.\n\nRequires a ^orange;Fission Furnace^reset; to smelt." ]
+  },
+  //acronyms
+  {
+    "op" : "add",
+    "path" : "/acronyms/frackinuniversemadness/MORELIQ1",
+    "value" : "liquid_coal"
+  },
+  {
+    "op" : "add",
+    "path" : "/acronyms/frackinuniversemadness/MORELIQ2",
+    "value" : "liquid_pixel"
+  },
+  //hidden research
+  {
+    "op" : "add",
+    "path" : "/hiddenResearch/frackinuniversemadness/-",
+    "value" : "MORELIQ1"
+  },
+  {
+    "op" : "add",
+    "path" : "/hiddenResearch/frackinuniversemadness/-",
+    "value" : "MORELIQ2"
+  }
+]
