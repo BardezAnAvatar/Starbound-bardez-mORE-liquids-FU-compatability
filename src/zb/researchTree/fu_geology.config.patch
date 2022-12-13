@@ -149,7 +149,7 @@
   {
     "op" : "add",
     "path" : "/strings/research/liquid_gold",
-    "value" : [ "Molten Gold", "^orange;Tier 2^reset;\n\n^cyan;Gold^reset;, heated to its melting point.\n\nRequires a ^orange;Primitive Furnace^reset; to smelt." ]
+    "value" : [ "Molten Gold", "^orange;Tier 2^reset;\n\n^cyan;Gold^reset;, heated to its melting point of 1337 K (1064 C) under standard pressure.\n\nRequires a ^orange;Primitive Furnace^reset; to smelt." ]
   },
   {
     "op" : "add",
