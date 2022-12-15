@@ -8,17 +8,16 @@ This repo is a mod for [Starbound](https://playstarbound.com/), based on top of 
 
 This mod does the following:
 
-- Fixes the still-remaining conflict between `Molten Coal` in mORE Liquids and `Refined Mech Fuel` when coal placed in the world (uses liquid ID `19`)
-- Converts `Molten Iron` from mORE Liquids into `Liquid Iron` from Frackin' Universe (because it has all of the interactions in FU)
-- Adds centrifugable recipes from mORE Liquids to FU advanced centrifuges
-- Adds in some somewhat more intelligent and variant language to the liquids, not just the "pulled this out too soon" text.
-- Adds research nodes to FU research tree for the molten items in the geology tree
+- [X] Fixes the still-remaining conflict between `Molten Coal` in mORE Liquids and `Refined Mech Fuel` when coal placed in the world (uses liquid ID `19`)
+- [X] Converts `Molten Iron` from mORE Liquids into `Liquid Iron` from Frackin' Universe (because it has all of the interactions in FU)
+- [X] Adds centrifugable recipes from mORE Liquids to FU advanced centrifuges
+- [X] Adds in some somewhat more intelligent and variant language to the liquids, not just the "pulled this out too soon" text.
+- [X] Adds research nodes to FU research tree for the molten items in the geology tree
   - Coal and Pixels are on the madness tree for being silly
-- Moves molten coal and molten pixel to fission furnace for recipe, tiered for being silly/crazy
-- Disables the uncrafting of liquids/bars via other mods (since this mod already does that and for FU consistency)
-- Renames the `Molten XYZ` liquids to `Liquid XYZ` for consistency with Frackin' Universe
-
-TODO: experiment if I can remove indexes with tests on `/path/-`
+- [X] Moves molten coal and molten pixel to fission furnace for recipe, tiered for being silly/crazy
+- [X] Disables the uncrafting of liquids/bars via other mods (since this mod already does that and for FU consistency)
+- [X] Renames the `Molten XYZ` liquids to `Liquid XYZ` for consistency with Frackin' Universe
+- [X] Provides a patch to remove the blueprints added by [mORE Liquids Fix Patch](https://steamcommunity.com/sharedfiles/filedetails/?id=2128491231)
 
 
 ## Attributions
